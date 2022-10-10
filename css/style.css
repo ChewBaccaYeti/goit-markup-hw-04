@@ -437,6 +437,17 @@ header a {
 
 /* Clients section */
 
+.clients-section {
+        margin: 94px 215px;
+}
+
+.clients-container {
+        display: block;
+        margin: auto;
+        width: 1170px;
+        height: 184px;
+}
+
 .clients-title {
         text-align: center;
         font-weight: 700;
@@ -445,39 +456,40 @@ header a {
         margin-bottom: 50px;
 }
 
-.clients-container {
-        display: block;
-        margin: auto;
-        width: 1170px; 
-        height: 184px;
-        /* outline: 5px solid red; */
-}
-
 .clients-list {
         display: flex;
         gap: 30px;
-        /* outline: 5px solid blue; */
 }
 
-.clients {
-        background-position: center;
-        background-repeat: no-repeat;
+.list-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         width: 170px;
         height: 92px;
-        /* outline: 5px solid orange; */
 }
 
-.clients:hover {
+.list-item:hover {
         cursor:pointer;
         border-color: var(--accent-color);
 }
+
+.link-clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.svg-clients {}
+
 /* Footer Section  */
 
 footer {
+        justify-content: center;
         background-color: var(--dark-color);
-
         padding-top: 60px;
         padding-bottom: 60px;
         gap: 30px;
@@ -489,7 +501,6 @@ footer {
         font-size: 26px;
         line-height: 1.19;
         margin-bottom: 20px;
-
         color: var(--primary-white);
 }
 
@@ -516,14 +527,40 @@ footer {
         color: var(--primary-white);
 }
 
-.footer-social { }
+/* Achtung! */
 
-.footer-social-links {
-        border-radius: 50%;
-        
-        background-repeat: no-repeat;
-        background-position: center;
+.footer-container{
+        display: flex;
 }
+
+.footer-social-container {
+        
+}
+
+.footer-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.footer-list {
+        display: flex;
+        gap: 10px;
+}
+
+.footer-list-item {
+        width: 44px;
+        height: 44px;
+}
+
+.footer-list-link {}
+
+.svg-footer {}
+
 /* Options section */
 
 .options-list {
