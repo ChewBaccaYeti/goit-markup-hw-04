@@ -419,7 +419,7 @@ header a {
         width: 100%;
         height: 100%;
         background-color: var(--primary-white);
-        fill:var(--accent-color);
+        fill:#AFB1B8;
         border-radius: 50%;
 
 }
@@ -427,6 +427,7 @@ header a {
 .social-link:hover,
 .social-link:focus {
         cursor: pointer;
+        fill: var(--primary-white);
         background-color: var(--accent-color);
 }
 
@@ -466,6 +467,7 @@ header a {
         justify-content: center;
         align-items: center;
 
+        fill: #AFB1B8;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         width: 170px;
@@ -474,6 +476,7 @@ header a {
 
 .list-item:hover {
         cursor:pointer;
+        fill: var(--accent-color);
         border-color: var(--accent-color);
 }
 
@@ -530,11 +533,12 @@ footer {
 /* Achtung! */
 
 .footer-container{
-        display: flex;
+
 }
 
 .footer-social-container {
-        
+        width: 206px;
+        height: 80px;
 }
 
 .footer-title {
