@@ -17,8 +17,8 @@
         <title>Web Studio</title>
         <link rel="stylesheet" href="./css/style.css" />
     </head>
-
     <body>
+        <!-- Navigation section -->
         <header>
             <div class="container header-wrapper">
                 <a href="index.html" class="logo-header-logo"
@@ -27,19 +27,19 @@
                 <nav class="header-nav">
                     <ul class="header-nav-list">
                         <li>
-                            <a href="index.html" class="header-nav-link"
+                            <a href="index.html" class="header-nav-link current"
                                 >Студія</a
                             >
                         </li>
                         <li>
-                            <a
-                                href="portfolio.html"
-                                class="header-nav-link current"
+                            <a href="portfolio.html" class="header-nav-link"
                                 >Портфоліо</a
                             >
                         </li>
                         <li>
-                            <a href="#" class="header-nav-link">Контакти</a>
+                            <a href="portfolio.html" class="header-nav-link"
+                                >Контакти</a
+                            >
                         </li>
                     </ul>
                 </nav>
@@ -48,13 +48,21 @@
                         <a
                             href="mailto:info@devstudio.com"
                             class="contacts-list-link"
-                            >info@devstudio.com</a
-                        >
+                            >info@devstudio.com
+                            <svg width="16" height="12">
+                                <use
+                                    href="./images/svg/sprite-defs.svg#icon-letter"
+                                ></use></svg
+                        ></a>
                     </li>
                     <li>
                         <a href="tel:+380961111111" class="contacts-list-link"
-                            >+38 096 111 11 11</a
-                        >
+                            >+38 096 111 11 11
+                            <svg width="10" height="16">
+                                <use
+                                    href="./images/svg/sprite-defs.svg#icon-phone"
+                                ></use></svg
+                        ></a>
                     </li>
                 </ul>
             </div>
